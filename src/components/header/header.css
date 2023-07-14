@@ -22,7 +22,7 @@
     align-items: center;
 }
 .header__logo {
-    width: 150px;
+    width: 100%;
     height: 86px;
 }
 .header__info {
@@ -39,6 +39,7 @@
     align-items: center;
     gap: 15px;
     margin-right: 40px;
+	color: #4b70dd;
 }
 .header__mail {
     text-decoration: underline;
@@ -59,4 +60,6 @@
 .burger__title-btn {
     font-weight: bold;
     font-size: 15px;
+	color: #4b70dd;
+	font-size: 25px;
 }
