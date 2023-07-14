@@ -12,8 +12,10 @@ const Header = () => {
                     <img className="header__logo" src={Img1} alt="logo"/>
                 </div>
                 <div className="header__info">
-                    <div className="header__tel">+86 45 86 46 056</div>
-                    <div className="header__mail">email@gmail.com</div>
+                    <div className="header__contacts">
+                        <div className="header__tel">+86 45 86 46 056</div>
+                        <div className="header__mail">email@gmail.com</div>
+                    </div>
                     <div>
                         <button className="burger__btn">
                             <span className="burger__title-btn">Menu</span>

@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 .container {
     width: 100%;
     background-color: #fff;
@@ -18,24 +17,28 @@
     width: 1300px;
     margin: 0 40px 0 40px;
 }
-
 .header__img {
     display: flex;
     align-items: center;
 }
-
 .header__logo {
     width: 150px;
     height: 86px;
 }
-
 .header__info {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    gap: 15px;
     font-weight: bold;
+}
+.header__contacts {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-right: 40px;
 }
 .header__mail {
     text-decoration: underline;
@@ -50,7 +53,10 @@
     align-items: center;
     border: none;
     border-radius: 25px;
-    background-color: azure;
-    gap: 10px;
+    background-color: #ffffff;
+    gap: 12px;
 }
-
+.burger__title-btn {
+    font-weight: bold;
+    font-size: 15px;
+}
