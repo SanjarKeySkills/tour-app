@@ -1,5 +1,56 @@
-.container {
+* {
     margin: 0;
     padding: 0;
-    background: red;
 }
+
+.container {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+/*header*/
+.header__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1300px;
+    margin: 0 40px 0 40px;
+}
+
+.header__img {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    width: 150px;
+    height: 86px;
+}
+
+.header__info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    font-weight: bold;
+}
+.header__mail {
+    text-decoration: underline;
+}
+
+/*burger*/
+.burger__btn {
+    width: 110px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 25px;
+    background-color: azure;
+    gap: 10px;
+}
+
