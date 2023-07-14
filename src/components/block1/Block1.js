@@ -3,7 +3,7 @@ import "./block1.css";
 
 const Block1 = () => {
     return (
-        <div className="container">
+        <div>
             <div>Hello world Block1</div>
         </div>
     );

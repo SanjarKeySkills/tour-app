@@ -1,6 +1,6 @@
-import Header from "./components/header/Header";
-import Hero from "./components/hero/Hero";
-import Block1 from "./components/block1/Block1";
+import Header from "./components/header/Header.jsx";
+import Hero from "./components/hero/Hero.js";
+import Block1 from "./components/block1/Block1.js";
 
 
 function App() {
