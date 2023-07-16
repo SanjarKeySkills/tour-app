@@ -1,16 +1,15 @@
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
-import Block1 from "./components/block1/Block1";
-
+import Promo from "./components/Promo/Promo";
 
 function App() {
-  return (
-    <div className="App">
-        <Header />
-        <Hero />
-        <Block1 />
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header />
+            <Hero />
+            <Promo />
+        </div>
+    );
 }
 
 export default App;

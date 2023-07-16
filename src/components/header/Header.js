@@ -12,8 +12,8 @@ const Header = () => {
                 </div>
                 <div className="header__info">
                     <div className="header__contacts">
-                        <div className="header__tel">+86 00 00 11 222</div>
-                        <div className="header__mail">email@gmail.com</div>
+                        <div className="header__tel">+86 00 00 00 000</div>
+                        <div className="header__mail">ouremail@gmail.com</div>
                     </div>
                     <div>
                         <button className="burger__btn">
