@@ -1,0 +1,102 @@
+.popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: flex-end;
+}
+
+.popup__menu-wrapper {
+	width: 360px;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	background-color: #fff;
+	padding-bottom: 64px;
+}
+
+.popup__close-btn {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	border: none;
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 8px;
+}
+
+.popup__btn-title {
+	font-size: 16px;
+}
+
+.burger__list {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+}
+
+.burger__btn {
+	width: 110px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	border-radius: 25px;
+	background-color: #ffffff;
+	gap: 12px;
+}
+
+.burger__title-btn {
+	font-weight: bold;
+	font-size: 15px;
+	color: #4b70dd;
+	font-size: 25px;
+}
+
+.burger__contact-items {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
+
+/* Social */
+
+.social {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	width: 188px;
+	gap: 22px;
+}
+
+.social__btn {
+	width: 48px;
+	height: 48px;
+	border-radius: 24px;
+	border: none;
+}
+
+.social__btn-wsp {
+	background-image: url(../../img/whats.svg);
+}
+
+.social__btn-tlg {
+	background-image: url(../../img/tlg.svg);
+}
+
+.social__btn-ist {
+	background-image: url(../../img/ist.svg);
+}

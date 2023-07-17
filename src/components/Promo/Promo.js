@@ -8,8 +8,11 @@ const Promo = () => {
             <div className="promo_wrapper">
                 <img className="promoImg" src={promoImg} alt="promoImg" />
                 <div className="promo__items_1">
-                    <ul className="li">산 트레킹</ul>
-                    {/* Трекинг в горах */}
+                    <a href="#">
+                        <ul className="li">산 트레킹</ul>
+                        {/* Трекинг в горах */}
+                    </a>
+
                     <ul className="li">산악 호수</ul>
                     {/* Горные озера */}
                     <ul className="li">유르트 마을</ul>

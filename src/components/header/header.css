@@ -44,22 +44,3 @@
 .header__mail {
     text-decoration: underline;
 }
-
-/*burger*/
-.burger__btn {
-    width: 110px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    border-radius: 25px;
-    background-color: #ffffff;
-    gap: 12px;
-}
-.burger__title-btn {
-    font-weight: bold;
-    font-size: 15px;
-	color: #4b70dd;
-	font-size: 25px;
-}

@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
+import PopUp from "../popUpMenu/popUp.jsx";
 import Img1 from "../../img/images_2.png";
 import Img2 from "../../img/burger-symbols_menu.svg";
 import "./header.css";
 
 const Header = () => {
+    const [isOpenPopUp, setIsOpenPopUp] = useState(false);
+
     return (
         <div className="container">
             <div className="header__main">
@@ -13,13 +16,19 @@ const Header = () => {
                 <div className="header__info">
                     <div className="header__contacts">
                         <div className="header__tel">+86 00 00 00 000</div>
-                        <div className="header__mail">ouremail@gmail.com</div>
+                        <div className="header__mail">tourist@gmail.com</div>
                     </div>
                     <div>
-                        <button className="burger__btn">
+                        <button
+                            className="burger__btn"
+                            onClick={() => setIsOpenPopUp((prev) => !prev)}>
                             <span className="burger__title-btn">메뉴</span>
                             <img src={Img2} alt="logo-btn" />
                         </button>
+                        <PopUp
+                            isOpen={isOpenPopUp}
+                            setTrigger={setIsOpenPopUp}
+                        />
                     </div>
                 </div>
             </div>
