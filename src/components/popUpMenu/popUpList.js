@@ -1,30 +1,30 @@
 const burgerList = [
     {
-        title: "Main Page",
+        title: "메인 페이지",
         href: "#",
         className: "burger__list-item",
     },
 
     {
-        title: "About",
+        title: "설명",
         href: "#",
         className: "burger__list-item",
     },
 
     {
-        title: "Tourists",
+        title: "관광객",
         href: "#",
         className: "burger__list-item",
     },
 
     {
-        title: "Catalog",
+        title: "목록",
         href: "#",
         className: "burger__list-item",
     },
 
     {
-        title: "Contacts",
+        title: "콘택트 렌즈",
         href: "#",
         className: "burger__list-item",
     },

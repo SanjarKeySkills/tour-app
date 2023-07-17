@@ -11,7 +11,7 @@ function PopupFn({ setTrigger, isOpen }) {
                     <button
                         className="popup__close-btn"
                         onClick={() => setTrigger((prev) => !prev)}>
-                        <span className="popup__btn-title">ЗАКРЫТЬ</span>
+                        <span className="popup__btn-title">닫다</span>
                         <img src={Img3} alt="cls_btn" />
                     </button>
                     <div></div>
