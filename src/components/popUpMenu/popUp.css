@@ -33,7 +33,9 @@
 }
 
 .popup__btn-title {
-	font-size: 16px;
+	font-size: 22px;
+	font-weight: bold;
+	color:#4b70dd;
 }
 
 .burger__list {

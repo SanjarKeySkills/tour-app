@@ -1,30 +1,22 @@
 import React from "react";
 import "./promo.css";
 import promoImg from "../../img/promo_hills.png";
+import promoList from "./promoList.js";
 
 const Promo = () => {
     return (
         <div className="container">
             <div className="promo_wrapper">
                 <img className="promoImg" src={promoImg} alt="promoImg" />
-                <div className="promo__items_1">
-                    <a href="#">
-                        <ul className="li">산 트레킹</ul>
-                        {/* Трекинг в горах */}
-                    </a>
-
-                    <ul className="li">산악 호수</ul>
-                    {/* Горные озера */}
-                    <ul className="li">유르트 마을</ul>
-                    {/* Юрточный городок */}
-                </div>
-                <div className="promo__items_2">
-                    <ul className="li">등산</ul>
-                    {/* Альпинизм */}
-                    <ul className="li">전통과 요리</ul>
-                    {/* Традиции и кухня */}
-                    <ul className="li">승마</ul>
-                    {/* Катание на лошадях */}
+                <div className="promo__list">
+                    {promoList.map((promoItem) => (
+                        <a
+                            key={promoItem.title}
+                            className={promoItem.className}
+                            href={promoItem.href}>
+                            {promoItem.title}
+                        </a>
+                    ))}
                 </div>
             </div>
         </div>
