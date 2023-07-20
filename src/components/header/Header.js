@@ -15,14 +15,16 @@ const Header = () => {
                 </div>
                 <div className="header__info">
                     <div className="header__contacts">
-                        <div className="header__tel">+86 00 00 00 000</div>
-                        <div className="header__mail">tourist@gmail.com</div>
+                        <div className="header__tel">+996 000 000 000</div>
+                        <div className="header__mail">
+                            akylfinance@gmail.com
+                        </div>
                     </div>
                     <div>
                         <button
                             className="burger__btn"
                             onClick={() => setIsOpenPopUp((prev) => !prev)}>
-                            <span className="burger__title-btn">메뉴</span>
+                            <span className="burger__title-btn">MENU</span>
                             <img src={Img2} alt="logo-btn" />
                         </button>
                         <PopUp
