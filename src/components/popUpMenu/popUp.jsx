@@ -12,7 +12,7 @@ function PopupFn({ setTrigger, isOpen }) {
                     <button
                         className="popup__close-btn"
                         onClick={() => setTrigger((prev) => !prev)}>
-                        <span className="popup__btn-title">닫다</span>
+                        <span className="popup__btn-title">Закрыть</span>
                         <img src={Img3} alt="cls_btn" />
                     </button>
                     <div></div>
@@ -27,10 +27,10 @@ function PopupFn({ setTrigger, isOpen }) {
                         ))}
                     </div>
                     <div className="burger__contact-items">
-                        <div className="burger__list-tel">+86 000 000 000</div>
-                        <div className="burger__list-tel">+996 556 170 878</div>
+                        <div className="burger__list-tel">+996 700 000 000</div>
+                        <div className="burger__list-tel">+996 500 000 000</div>
                         <div className="burger__list-mail">
-                            tourist@gmail.com
+                            akylfinance@gmail.com
                         </div>
                         <div></div>
                         <div className="social">
@@ -39,7 +39,9 @@ function PopupFn({ setTrigger, isOpen }) {
                             <button className="social__btn social__btn-ist"></button> */}
 
                             {burgerSocilaList.map((burgerSocialItem) => (
-                                <button className={burgerSocialItem.className}>
+                                <button
+                                    className={burgerSocialItem.className}
+                                    href={burgerSocialItem.href}>
                                     {burgerSocialItem.className}
                                 </button>
                             ))}
