@@ -2,7 +2,7 @@ import React from "react";
 import "./popUp.css";
 import Img3 from "../../img/cls_popup_menu.svg";
 import burgerList from "./popUpList.js";
-// import burgerSocilaList from "./popUpSocialList";
+import burgerSocilaList from "./popUpSocialList";
 
 function PopupFn({ setTrigger, isOpen }) {
     return (
@@ -34,17 +34,15 @@ function PopupFn({ setTrigger, isOpen }) {
                         </div>
                         <div></div>
                         <div className="social">
-                            <button className="social__btn social__btn-wsp"></button>
+                            {/* <button className="social__btn social__btn-wsp"></button>
                             <button className="social__btn social__btn-tlg"></button>
-                            <button className="social__btn social__btn-ist"></button>
+                            <button className="social__btn social__btn-ist"></button> */}
 
-                            {/* {burgerSocilaList.map((burgerSocialItem) => (
-                                <button
-                                    className={burgerSocialItem.className}
-                                    href={burgerSocialItem.href}>
-                                    {burgerSocialItem.className}
-                                </button>
-                            ))} */}
+                            {burgerSocilaList.map((burgerSocialItem) => (
+                                <a
+                                    className={`${burgerSocialItem} social__btn`}
+                                    href="#"></a>
+                            ))}
                         </div>
                         <div></div>
                     </div>

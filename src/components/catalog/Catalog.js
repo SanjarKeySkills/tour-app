@@ -10,7 +10,12 @@ const Catalog = () => {
                         <p className="catalog__text">여행 일정을 확인하세요.</p>
                         {/* Ознакомьтесь с программой путешествия */}
                     </div>
-                    <button className="catalog__button">카탈로그 열기</button>
+                    <a
+                        href="https://drive.google.com/drive/folders/1si_kBXYuwY8SmB2RT3z-B0Na59A0qyo0?usp=drive_link"
+                        className="catalog__button-a"
+                        target="_blank">
+                        카탈로그 열기
+                    </a>
                     {/* Открыть каталог */}
                 </div>
             </div>
