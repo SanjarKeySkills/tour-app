@@ -11,7 +11,7 @@ const Catalog = () => {
                         {/* Ознакомьтесь с программой путешествия */}
                     </div>
                     <a
-                        href="https://drive.google.com/drive/folders/1si_kBXYuwY8SmB2RT3z-B0Na59A0qyo0?usp=drive_link"
+                        href="https://drive.google.com/drive/folders/1G4yVPLI-u2-ai2G77PguPaP9d14Mf9hd?usp=drive_link"
                         className="catalog__button-a"
                         target="_blank">
                         카탈로그 열기
